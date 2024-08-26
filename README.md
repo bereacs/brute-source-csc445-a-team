@@ -2,4 +2,4 @@
 
 Submission by:
 
-Names: FIXME
+Names: Bineta, James, Kori, Andrea
