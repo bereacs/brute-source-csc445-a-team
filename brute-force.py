@@ -30,12 +30,11 @@ class BruteForce:
 
     def number_routes(self):
         ''' Returns the number of possible routes assuming that home is one specific city'''
-        count=1
-        #TODO Complete this method
-
-        # print(count) # for debugging
-        return (count)
-
+        count = 1
+    for i in range(1, self.n-1):
+        count *= i
+    return count
+        
     def get_times(self):
         '''Returns the processing time in years needed to test all possible routes given self.rate
         as a list of [years, days, hours, minutes, seconds].'''
